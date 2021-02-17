@@ -17,7 +17,7 @@ Files used:
 <ul>
 <li>tensorflow(gpu)</li>
 <li>tensorflow-hub</li>
-<li>pytorch(CUDA 10.1)</li>
+<li>pytorch(CUDA 10.1)</li> 
 <li>flask</li>
 <li>numpy</li>
 <li>transformers</li>
@@ -26,6 +26,7 @@ Files used:
 #### Installing libraries:
 requirements.txt: contains all the packages required to run the project. Run the below command to install the required libraries for the project
 **pip install -r requirements.txt** 
+Pytorch version needs to be installed depending upon the CUDA Version from pytorch.org
 
 #### Build Docker Image:
 <ol><li>Build docker using the command docker build -t myname/myapp </li>
