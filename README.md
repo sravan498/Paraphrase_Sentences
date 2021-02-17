@@ -2,15 +2,14 @@
 
 ### Project Structure -
 
-Dataset: T5 model uses C4 dataset(Common Crawl's web crawl corpus). So we dont need to provide any external dataset to train this model
+Dataset:
+This model was trained on T5 model which uses C4 dataset(Common Crawl's web crawl corpus).
 
 #### Codes:
+Files used:
 <ol>
-  
 <li>app.py: runs on 6000 port, given a sentence the system tries to find the different variations of the question for the user input</li>
-
 <li>logs: The file stores the logging of the service. The projects uses python standard logging to log date, time with information and error type.</li>
-
 <li>dockerfile: The file consits of various commands and libraries to run the file in the docker </li>
 </ol>
 
