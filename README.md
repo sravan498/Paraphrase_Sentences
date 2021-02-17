@@ -15,26 +15,22 @@ Dataset: T5 model uses C4 dataset(Common Crawl's web crawl corpus). So we dont n
 </ol>
 
 ##### Dependencies: The project is built using python 3.X. Open source packges:
-
-tensorflow(gpu)
-
-tensorflow-hub
-
-pytorch(CUDA 10.1)
-
-flask
-
-numpy
-
-transformers
+<ul>
+<li>tensorflow(gpu)</li>
+<li>tensorflow-hub</li>
+<li>pytorch(CUDA 10.1)</li>
+<li>flask</li>
+<li>numpy</li>
+<li>transformers</li>
+</ul>
 
 #### Installing libraries:
 requirements.txt: contains all the packages required to run the project. Run the below command to install the required libraries for the project
 **pip install -r requirements.txt** 
 
 #### Build Docker Image:
-<ol><li>Build docker using the command **docker build -t myname/myapp </li>
-<li>Run the </li>
+<ol><li>Build docker using the command docker build -t myname/myapp </li>
+<li>Run the  docker using  docker run -p 6000:6000 myname/myapp </li>
 </ol>
 
 #### Response from API:
